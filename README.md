@@ -5,6 +5,7 @@ Requirements:
 xterm
 kdialog
 flatpak
+firefox
 
 
 Installation:
@@ -13,8 +14,7 @@ Installation:
 Flatinstaller should appear in your menu
 
 Usage:
-- Download a Flatpak of choice
-- Open Flatinstaller
-- Select Flatpak
-- Provide Root password (for systemwide flatpak installation)
-- Done
+- Open Flathub to download software
+- Install downloaded Flatpaks
+- List installed Flatpaks
+- Update all installed Flatpaks
