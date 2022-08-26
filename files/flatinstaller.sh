@@ -14,7 +14,7 @@ if [ "$?" = 0 ]; then
                 PID=$!;
                 wait $PID;
     elif    [ "$choice" = 3 ]; then
-                xterm -title "Flatpak helper" -geometry 160x40 -hold -e "flatpak list";
+                xterm -title "Flatpak helper" -geometry 160x40 -e "flatpak list && read -s -n1 -p '... ...press any key to close'";
     elif    [ "$choice" = 4 ]; then
                 xterm -title "Flatpak helper" -geometry 160x40 -hold -e "sudo flatpak update -y";
                 PID=$!;
@@ -25,5 +25,4 @@ elif [ "$?" = 1 ]; then
 else
 	kdialog --error "ERROR";
 fi;
-
 
