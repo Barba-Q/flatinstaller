@@ -11,7 +11,7 @@ firefox
 Installation:
 #sh install.sh
 
-Flatinstaller should appear in your menu
+Flatinstaller should appear in your menu.
 On XFCE Desktop an automatic update will appear on every boot. You can deactivate it in the XFCE autostart settings.
 
 Usage:
