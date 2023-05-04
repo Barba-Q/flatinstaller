@@ -8,6 +8,7 @@ choice=$(kdialog --radiolist "What do you want to do?" \
 if [ "$?" = 0 ]; then
     if      [ "$choice" = 1 ]; then
                 firefox https://flathub.org/apps;
+		sh /usr/bin/flatinstaller.sh;
     elif    [ "$choice" = 2 ]; then
                 filename="$(kdialog 'Choose Flatpak' --getopenfilename)";
                 xterm -title "Flatpak helper" -geometry 160x40 -hold -e "sudo flatpak install -y $filename";
