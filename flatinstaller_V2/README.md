@@ -12,7 +12,7 @@ Installation:
 #sh install.sh
 
 Flatpak installer should appear in your menu. 
-An automatic update will appear on every login (Testet on XFCE and LXQT).
+An automatic update will pop up on every login (Testet on XFCE and LXQT).
 You can deactivate this in the autostart settings or by removing the script locatet in ~/.config/autostart/.
 
 Usage:
