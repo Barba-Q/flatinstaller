@@ -11,8 +11,9 @@ Requirements:
 Installation:
 #sh install.sh
 
-Flatpak installer should appear in your menu. When you're on xfce an automatic update will appear on every login.
-You can deactivate this in the xfce autostart settings.
+Flatpak installer should appear in your menu. 
+An automatic update will appear on every login (Testet on XFCE and LXQT).
+You can deactivate this in the autostart settings or by removing the script locatet in ~/.config/autostart/.
 
 Usage:
 - Open Flathub to download software
