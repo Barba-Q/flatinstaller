@@ -2,10 +2,10 @@
 Very simple script to install flatpaks in a graphical way
 
 Requirements:
-xterm
-kdialog
-flatpak
-firefox
+- xterm
+- kdialog
+- flatpak
+- firefox
 
 
 Installation:
