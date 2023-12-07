@@ -5,6 +5,7 @@ Name=Flatpak installer
 GenericName=Flatpak installer
 Comment=Installs downloaded Flatpaks
 Exec=/bin/bash /usr/bin/flatinstaller.sh
+Mimetype=flatpakref
 Icon=/usr/share/icons/flatinstaller
 Terminal=false
 StartupNotify=true
